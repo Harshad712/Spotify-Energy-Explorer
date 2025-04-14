@@ -1,0 +1,20 @@
+[project]
+title = "Spotify Energy Explorer"
+version = "0.1.0"
+port = 8501
+slug = "spotify-energy"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Spotify Engergy Explorer"
+logo = "images/logo.png"
+favicon = "images/icons8-music-32.ico"
+primaryColor = "#1DB954"
+
+[data.topsongs_csv]
+type = "csv"
+path = "data/topsongs.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
